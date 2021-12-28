@@ -56,7 +56,7 @@ st.line_chart(tickerDfA2.Close)
 st.line_chart(tickerDfA2.Volume)
 st.write("# N:")
 st.write("# Netflix Stock History,",
-"Netflix Closing prices, followed by the Volume")
+"Netflix Closing prices followed by the Volume")
 st.line_chart(tickerDfN.Close)
 st.line_chart(tickerDfN.Volume)
 st.write("# G:")
