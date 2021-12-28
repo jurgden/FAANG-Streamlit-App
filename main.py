@@ -65,7 +65,7 @@ st.write("# Google Stock Price History",
 st.line_chart(tickerDfG.Close)
 st.line_chart(tickerDfG.Volume)
 st.write("# -------------------------------------------")
-st.write("# This is the whole FAANG Stock Closing/Volume Portfolio")
+st.write("This is the whole FAANG Stock Closing/Volume Portfolio")
 st.write("# -------------------------------------------")
 st.write("Here is a bonus Tesla Tracker")
 
