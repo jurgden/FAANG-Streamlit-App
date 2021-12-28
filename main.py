@@ -64,11 +64,12 @@ st.write("# Google Stock Price History",
 "The final FAANG stock on our list!")
 st.line_chart(tickerDfG.Close)
 st.line_chart(tickerDfG.Volume)
-st.write("# ------------")
+st.write("# -------------------------------------------")
 st.write("# This is the whole FAANG Stock Closing/Volume Portfolio")
+st.write("# -------------------------------------------")
 st.write("Here is a bonus Tesla Tracker")
 
-st.write("# Tesla Stock Price History",
+st.write("# Tesla Stock Price History,",
 "It's not FAANG but still cool! ")
 st.line_chart(tickerDfT.Close)
 st.line_chart(tickerDfT.Volume)
