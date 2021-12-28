@@ -38,7 +38,7 @@ tickerDfT = tickerDataTSLA.history(period='1w', start='2011-12-21', end='2021-12
 # Open High  Low Close  Volume Dividends  Stock Splits
 
 
-st.write("# The FAANG Stock Spotlight")
+st.write("# ---The FAANG Stock Spotlight---")
 st.write("# F:")
 st.write("# Facebook Stock Price History,",
 "Facebook Closing stock and Volume history ")
