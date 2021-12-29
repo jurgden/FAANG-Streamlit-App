@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.write("""
-# Tech Stock Price Tracking App
+# Tech Stock Price Tracking App :rocket:
 
 Here are the ***FAANG*** **Closing** stock prices and their **Volumes** repectively!
 
