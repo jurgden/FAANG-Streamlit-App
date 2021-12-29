@@ -39,7 +39,7 @@ tickerDfT = tickerDataTSLA.history(period='1d', start='2005-12-25', end='2021-12
 
 
 st.write("# :rocket: The ***FAANG*** Stock Spotlight :rocket: ")
-st.write("*From Christmas 2005-2021*")
+st.write("### *From Christmas 2005-2021*")
 st.write("# ***F***:")
 st.write("## Facebook Closing Stock Price History")
 st.line_chart(tickerDfF.Close)
