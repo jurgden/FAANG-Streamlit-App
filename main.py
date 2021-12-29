@@ -24,21 +24,22 @@ tickerDataNFLX = yf.Ticker(tickerSymbol_NFLX)
 tickerDataGOOG = yf.Ticker(tickerSymbol_GOOG)
 tickerDataTSLA = yf.Ticker(tickerSymbol_TSLA)
 
-tickerDfF = tickerDataFB.history(period='1w', start='2011-12-21', end='2021-12-28')
+tickerDfF = tickerDataFB.history(period='1d', start='2005-12-25', end='2021-12-25')
 # Open High  Low Close  Volume Dividends  Stock Splits
-tickerDfA = tickerDataAMZN.history(period='1w', start='2011-12-21', end='2021-12-28')
+tickerDfA = tickerDataAMZN.history(period='1d', start='2005-12-25', end='2021-12-25')
 # Open High  Low Close  Volume Dividends  Stock Splits
-tickerDfA2 = tickerDataAAPL.history(period='1w', start='2011-12-21', end='2021-12-28')
+tickerDfA2 = tickerDataAAPL.history(period='1d', start='2005-12-25', end='2021-12-25')
 # Open High  Low Close  Volume Dividends  Stock Splits
-tickerDfN = tickerDataNFLX.history(period='1w', start='2011-12-21', end='2021-12-28')
+tickerDfN = tickerDataNFLX.history(period='1d', start='2005-12-25', end='2021-12-25')
 # Open High  Low Close  Volume Dividends  Stock Splits
-tickerDfG = tickerDataGOOG.history(period='1w', start='2011-12-21', end='2021-12-28')
+tickerDfG = tickerDataGOOG.history(period='1d', start='2005-12-25', end='2021-12-25')
 # Open High  Low Close  Volume Dividends  Stock Splits
-tickerDfT = tickerDataTSLA.history(period='1w', start='2011-12-21', end='2021-12-28')
+tickerDfT = tickerDataTSLA.history(period='1d', start='2005-12-25', end='2021-12-25')
 # Open High  Low Close  Volume Dividends  Stock Splits
 
 
 st.write("# :rocket: The ***FAANG*** Stock Spotlight :rocket: ")
+st.write("From Christmas 2005-2021")
 st.write("# ***F***:")
 st.write("## Facebook Closing Stock Price History")
 st.line_chart(tickerDfF.Close)
