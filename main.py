@@ -2,12 +2,12 @@ import yfinance as yf
 import streamlit as st
 import pandas as pd
 
-st.write("""
+#st.write("""
 # Tech Stock Price Tracking App 
 
-Here are the ***FAANG*** **Closing** stock prices and their **Volumes** repectively!
+#Here are the ***FAANG*** **Closing** stock prices and their **Volumes** repectively!
 
-""")
+#""")
 
 tickerSymbol_FB = 'FB'
 tickerSymbol_AMZN = 'AMZN'
