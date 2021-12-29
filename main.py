@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.write("""
-# :rocket: Tech Stock Price Tracking App :rocket:
+# Tech Stock Price Tracking App 
 
 Here are the ***FAANG*** **Closing** stock prices and their **Volumes** repectively!
 
@@ -38,7 +38,7 @@ tickerDfT = tickerDataTSLA.history(period='1w', start='2011-12-21', end='2021-12
 # Open High  Low Close  Volume Dividends  Stock Splits
 
 
-st.write("# ---The ***FAANG*** Stock Spotlight---")
+st.write("# :rocket: The ***FAANG*** Stock Spotlight :rocket: ")
 st.write("# ***F***:")
 st.write("## Facebook Stock Price History,",
 "Facebook Closing stock and Volume history ")
